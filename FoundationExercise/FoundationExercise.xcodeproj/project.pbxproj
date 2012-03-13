@@ -1,0 +1,236 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		433F19D7150EE14F002B1337 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 433F19D6150EE14F002B1337 /* Foundation.framework */; };
+		433F19DA150EE14F002B1337 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 433F19D9150EE14F002B1337 /* main.m */; };
+		433F19DE150EE14F002B1337 /* FoundationExercise.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 433F19DD150EE14F002B1337 /* FoundationExercise.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		433F19D0150EE14F002B1337 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				433F19DE150EE14F002B1337 /* FoundationExercise.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		433F19D2150EE14F002B1337 /* FoundationExercise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FoundationExercise; sourceTree = BUILT_PRODUCTS_DIR; };
+		433F19D6150EE14F002B1337 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		433F19D9150EE14F002B1337 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		433F19DC150EE14F002B1337 /* FoundationExercise-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FoundationExercise-Prefix.pch"; sourceTree = "<group>"; };
+		433F19DD150EE14F002B1337 /* FoundationExercise.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = FoundationExercise.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		433F19CF150EE14F002B1337 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433F19D7150EE14F002B1337 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		433F19C7150EE14F002B1337 = {
+			isa = PBXGroup;
+			children = (
+				433F19D8150EE14F002B1337 /* FoundationExercise */,
+				433F19D5150EE14F002B1337 /* Frameworks */,
+				433F19D3150EE14F002B1337 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		433F19D3150EE14F002B1337 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				433F19D2150EE14F002B1337 /* FoundationExercise */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		433F19D5150EE14F002B1337 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				433F19D6150EE14F002B1337 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		433F19D8150EE14F002B1337 /* FoundationExercise */ = {
+			isa = PBXGroup;
+			children = (
+				433F19D9150EE14F002B1337 /* main.m */,
+				433F19DD150EE14F002B1337 /* FoundationExercise.1 */,
+				433F19DB150EE14F002B1337 /* Supporting Files */,
+			);
+			path = FoundationExercise;
+			sourceTree = "<group>";
+		};
+		433F19DB150EE14F002B1337 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				433F19DC150EE14F002B1337 /* FoundationExercise-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		433F19D1150EE14F002B1337 /* FoundationExercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 433F19E1150EE14F002B1337 /* Build configuration list for PBXNativeTarget "FoundationExercise" */;
+			buildPhases = (
+				433F19CE150EE14F002B1337 /* Sources */,
+				433F19CF150EE14F002B1337 /* Frameworks */,
+				433F19D0150EE14F002B1337 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoundationExercise;
+			productName = FoundationExercise;
+			productReference = 433F19D2150EE14F002B1337 /* FoundationExercise */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		433F19C9150EE14F002B1337 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 433F19CC150EE14F002B1337 /* Build configuration list for PBXProject "FoundationExercise" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 433F19C7150EE14F002B1337;
+			productRefGroup = 433F19D3150EE14F002B1337 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				433F19D1150EE14F002B1337 /* FoundationExercise */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		433F19CE150EE14F002B1337 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433F19DA150EE14F002B1337 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		433F19DF150EE14F002B1337 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		433F19E0150EE14F002B1337 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		433F19E2150EE14F002B1337 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FoundationExercise/FoundationExercise-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		433F19E3150EE14F002B1337 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FoundationExercise/FoundationExercise-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		433F19CC150EE14F002B1337 /* Build configuration list for PBXProject "FoundationExercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				433F19DF150EE14F002B1337 /* Debug */,
+				433F19E0150EE14F002B1337 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		433F19E1150EE14F002B1337 /* Build configuration list for PBXNativeTarget "FoundationExercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				433F19E2150EE14F002B1337 /* Debug */,
+				433F19E3150EE14F002B1337 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 433F19C9150EE14F002B1337 /* Project object */;
+}
