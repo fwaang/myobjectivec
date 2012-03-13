@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		435711EC150888BB004975EE /* RockStar.m in Sources */ = {isa = PBXBuildFile; fileRef = 435711EB150888BB004975EE /* RockStar.m */; };
+		435711F0150888D6004975EE /* Band.m in Sources */ = {isa = PBXBuildFile; fileRef = 435711EF150888D6004975EE /* Band.m */; };
+		435711F315088B5A004975EE /* Accumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 435711F215088B5A004975EE /* Accumulator.m */; };
+		435711F615088C3C004975EE /* NamedAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 435711F515088C3C004975EE /* NamedAccumulator.m */; };
+		436AAF481509A5650014A28B /* Train.m in Sources */ = {isa = PBXBuildFile; fileRef = 436AAF471509A5650014A28B /* Train.m */; };
+		436AAF4C1509B1F50014A28B /* BulletTrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 436AAF4B1509B1F50014A28B /* BulletTrain.m */; };
+		436AAF4F1509B4670014A28B /* Coupon.m in Sources */ = {isa = PBXBuildFile; fileRef = 436AAF4E1509B4670014A28B /* Coupon.m */; };
+		436AAF521509B55C0014A28B /* NewCoupon.m in Sources */ = {isa = PBXBuildFile; fileRef = 436AAF511509B55C0014A28B /* NewCoupon.m */; };
+		436AAF55150A26A30014A28B /* NewCoupon2.m in Sources */ = {isa = PBXBuildFile; fileRef = 436AAF54150A26A30014A28B /* NewCoupon2.m */; };
+		43F9EADD1500780A000D05DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F9EADC1500780A000D05DC /* Foundation.framework */; };
+		43F9EAE01500780A000D05DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F9EADF1500780A000D05DC /* main.m */; };
+		43F9EAE41500780A000D05DC /* HelloObjectiveC.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 43F9EAE31500780A000D05DC /* HelloObjectiveC.1 */; };
+		43F9EAEF15007C0C000D05DC /* Greeter.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F9EAEE15007C0C000D05DC /* Greeter.m */; };
+		43F9EB4415009E64000D05DC /* Greeting.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F9EB4315009E64000D05DC /* Greeting.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		43F9EAD61500780A000D05DC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				43F9EAE41500780A000D05DC /* HelloObjectiveC.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		435711EA150888BB004975EE /* RockStar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RockStar.h; sourceTree = "<group>"; };
+		435711EB150888BB004975EE /* RockStar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RockStar.m; sourceTree = "<group>"; };
+		435711EE150888D6004975EE /* Band.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Band.h; sourceTree = "<group>"; };
+		435711EF150888D6004975EE /* Band.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Band.m; sourceTree = "<group>"; };
+		435711F115088B5A004975EE /* Accumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Accumulator.h; sourceTree = "<group>"; };
+		435711F215088B5A004975EE /* Accumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Accumulator.m; sourceTree = "<group>"; };
+		435711F415088C3C004975EE /* NamedAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NamedAccumulator.h; sourceTree = "<group>"; };
+		435711F515088C3C004975EE /* NamedAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NamedAccumulator.m; sourceTree = "<group>"; };
+		436AAF461509A5650014A28B /* Train.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Train.h; sourceTree = "<group>"; };
+		436AAF471509A5650014A28B /* Train.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Train.m; sourceTree = "<group>"; };
+		436AAF4A1509B1F50014A28B /* BulletTrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BulletTrain.h; path = HelloObjectiveC/BulletTrain.h; sourceTree = "<group>"; };
+		436AAF4B1509B1F50014A28B /* BulletTrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BulletTrain.m; path = HelloObjectiveC/BulletTrain.m; sourceTree = "<group>"; };
+		436AAF4D1509B4670014A28B /* Coupon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coupon.h; sourceTree = "<group>"; };
+		436AAF4E1509B4670014A28B /* Coupon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coupon.m; sourceTree = "<group>"; };
+		436AAF501509B55C0014A28B /* NewCoupon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewCoupon.h; sourceTree = "<group>"; };
+		436AAF511509B55C0014A28B /* NewCoupon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewCoupon.m; sourceTree = "<group>"; };
+		436AAF53150A26A30014A28B /* NewCoupon2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewCoupon2.h; sourceTree = "<group>"; };
+		436AAF54150A26A30014A28B /* NewCoupon2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewCoupon2.m; sourceTree = "<group>"; };
+		43F9EAD81500780A000D05DC /* HelloObjectiveC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HelloObjectiveC; sourceTree = BUILT_PRODUCTS_DIR; };
+		43F9EADC1500780A000D05DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		43F9EADF1500780A000D05DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		43F9EAE21500780A000D05DC /* HelloObjectiveC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloObjectiveC-Prefix.pch"; sourceTree = "<group>"; };
+		43F9EAE31500780A000D05DC /* HelloObjectiveC.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = HelloObjectiveC.1; sourceTree = "<group>"; };
+		43F9EAED15007C0C000D05DC /* Greeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Greeter.h; sourceTree = "<group>"; };
+		43F9EAEE15007C0C000D05DC /* Greeter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Greeter.m; sourceTree = "<group>"; };
+		43F9EB4215009E64000D05DC /* Greeting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Greeting.h; sourceTree = "<group>"; };
+		43F9EB4315009E64000D05DC /* Greeting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Greeting.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43F9EAD51500780A000D05DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F9EADD1500780A000D05DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43F9EACD1500780A000D05DC = {
+			isa = PBXGroup;
+			children = (
+				435711F115088B5A004975EE /* Accumulator.h */,
+				435711F215088B5A004975EE /* Accumulator.m */,
+				435711EE150888D6004975EE /* Band.h */,
+				435711EF150888D6004975EE /* Band.m */,
+				436AAF4A1509B1F50014A28B /* BulletTrain.h */,
+				436AAF4B1509B1F50014A28B /* BulletTrain.m */,
+				436AAF4D1509B4670014A28B /* Coupon.h */,
+				436AAF4E1509B4670014A28B /* Coupon.m */,
+				43F9EADB1500780A000D05DC /* Frameworks */,
+				43F9EAED15007C0C000D05DC /* Greeter.h */,
+				43F9EAEE15007C0C000D05DC /* Greeter.m */,
+				43F9EB4215009E64000D05DC /* Greeting.h */,
+				43F9EB4315009E64000D05DC /* Greeting.m */,
+				43F9EADE1500780A000D05DC /* HelloObjectiveC */,
+				435711F415088C3C004975EE /* NamedAccumulator.h */,
+				435711F515088C3C004975EE /* NamedAccumulator.m */,
+				436AAF501509B55C0014A28B /* NewCoupon.h */,
+				436AAF511509B55C0014A28B /* NewCoupon.m */,
+				436AAF53150A26A30014A28B /* NewCoupon2.h */,
+				436AAF54150A26A30014A28B /* NewCoupon2.m */,
+				43F9EAD91500780A000D05DC /* Products */,
+				435711EA150888BB004975EE /* RockStar.h */,
+				435711EB150888BB004975EE /* RockStar.m */,
+				436AAF461509A5650014A28B /* Train.h */,
+				436AAF471509A5650014A28B /* Train.m */,
+			);
+			sourceTree = "<group>";
+		};
+		43F9EAD91500780A000D05DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43F9EAD81500780A000D05DC /* HelloObjectiveC */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43F9EADB1500780A000D05DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43F9EADC1500780A000D05DC /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43F9EADE1500780A000D05DC /* HelloObjectiveC */ = {
+			isa = PBXGroup;
+			children = (
+				43F9EADF1500780A000D05DC /* main.m */,
+				43F9EAE31500780A000D05DC /* HelloObjectiveC.1 */,
+				43F9EAE11500780A000D05DC /* Supporting Files */,
+			);
+			path = HelloObjectiveC;
+			sourceTree = "<group>";
+		};
+		43F9EAE11500780A000D05DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43F9EAE21500780A000D05DC /* HelloObjectiveC-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43F9EAD71500780A000D05DC /* HelloObjectiveC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43F9EAE71500780A000D05DC /* Build configuration list for PBXNativeTarget "HelloObjectiveC" */;
+			buildPhases = (
+				43F9EAD41500780A000D05DC /* Sources */,
+				43F9EAD51500780A000D05DC /* Frameworks */,
+				43F9EAD61500780A000D05DC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloObjectiveC;
+			productName = HelloObjectiveC;
+			productReference = 43F9EAD81500780A000D05DC /* HelloObjectiveC */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43F9EACF1500780A000D05DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 43F9EAD21500780A000D05DC /* Build configuration list for PBXProject "HelloObjectiveC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 43F9EACD1500780A000D05DC;
+			productRefGroup = 43F9EAD91500780A000D05DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43F9EAD71500780A000D05DC /* HelloObjectiveC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43F9EAD41500780A000D05DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F9EAE01500780A000D05DC /* main.m in Sources */,
+				43F9EAEF15007C0C000D05DC /* Greeter.m in Sources */,
+				43F9EB4415009E64000D05DC /* Greeting.m in Sources */,
+				435711EC150888BB004975EE /* RockStar.m in Sources */,
+				435711F0150888D6004975EE /* Band.m in Sources */,
+				435711F315088B5A004975EE /* Accumulator.m in Sources */,
+				435711F615088C3C004975EE /* NamedAccumulator.m in Sources */,
+				436AAF481509A5650014A28B /* Train.m in Sources */,
+				436AAF4C1509B1F50014A28B /* BulletTrain.m in Sources */,
+				436AAF4F1509B4670014A28B /* Coupon.m in Sources */,
+				436AAF521509B55C0014A28B /* NewCoupon.m in Sources */,
+				436AAF55150A26A30014A28B /* NewCoupon2.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		43F9EAE51500780A000D05DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		43F9EAE61500780A000D05DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		43F9EAE81500780A000D05DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloObjectiveC/HelloObjectiveC-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		43F9EAE91500780A000D05DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloObjectiveC/HelloObjectiveC-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43F9EAD21500780A000D05DC /* Build configuration list for PBXProject "HelloObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F9EAE51500780A000D05DC /* Debug */,
+				43F9EAE61500780A000D05DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43F9EAE71500780A000D05DC /* Build configuration list for PBXNativeTarget "HelloObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F9EAE81500780A000D05DC /* Debug */,
+				43F9EAE91500780A000D05DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43F9EACF1500780A000D05DC /* Project object */;
+}
