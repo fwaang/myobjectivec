@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'MyCaseTool' target in the 'MyCaseTool' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
