@@ -122,14 +122,15 @@ void testCoupon(void)
 
 int main (int argc, const char * argv[])
 {
-
+    @autoreleasepool {
 //    NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
     // testGreeter();
     // testNamedAccumulator();
     // testCopy();
     // testTrain();
-    testCoupon();
+        testCoupon();
 //    [pool drain];
+    }
     return 0;
 }
 
